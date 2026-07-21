@@ -1,0 +1,20 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Models\Post;
+use Illuminate\Http\Request;
+
+class PostController extends Controller
+{
+    public function index()
+    {
+        $posts = Post::latest()->paginate(9);
+        return view('berita.index', compact('posts'));
+    }
+
+    public function show(Post $post)
+    {
+        return view('berita.show', compact('post'));
+    }
+}
