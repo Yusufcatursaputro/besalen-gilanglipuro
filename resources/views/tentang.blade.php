@@ -85,24 +85,35 @@
             <div class="w-24 h-1 bg-amber-500 mx-auto mt-6 rounded-full"></div>
         </div>
 
-        <div class="bg-white rounded-3xl shadow-lg border border-stone-100 overflow-hidden max-w-4xl mx-auto flex flex-col md:flex-row">
+        @forelse($empus as $empu)
+        <div class="bg-white rounded-3xl shadow-lg border border-stone-100 overflow-hidden max-w-4xl mx-auto flex flex-col md:flex-row mb-8">
             <div class="md:w-2/5 shrink-0 bg-stone-200">
-                <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=500&q=80" alt="Empu Keris" class="w-full h-full object-cover object-center min-h-[300px]">
+                <img src="{{ asset('storage/' . $empu->image) }}" alt="{{ $empu->name }}" class="w-full h-full object-cover object-center min-h-[300px]">
             </div>
             <div class="p-8 md:p-10 flex flex-col justify-center">
-                <h4 class="text-2xl font-serif font-bold text-slate-800 mb-1">Ki Empu Sungkowo</h4>
-                <p class="text-amber-600 font-medium mb-6">Generasi ke-17 Empu Supo</p>
+                <h4 class="text-2xl font-serif font-bold text-slate-800 mb-1">{{ $empu->name }}</h4>
+                @if($empu->title)
+                    <p class="text-amber-600 font-medium mb-6">{{ $empu->title }}</p>
+                @endif
                 <p class="text-slate-600 leading-relaxed mb-6">
-                    Mendedikasikan hidupnya pada nyala api dan tempaan baja, Ki Empu telah berkarya lebih dari 40 tahun. Keahlian beliau dalam memadukan pamor dan merancang dhapur keris menjadikannya salah satu sosok sentral dalam pelestarian pusaka di wilayah ini.
+                    {{ $empu->description }}
                 </p>
+                
+                @if($empu->is_certified)
                 <div class="flex gap-4 items-center">
                     <span class="inline-flex items-center gap-1 text-sm font-semibold text-stone-500">
                         <svg class="w-5 h-5 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path></svg>
                         Tersertifikasi Nasional
                     </span>
                 </div>
+                @endif
             </div>
         </div>
+        @empty
+        <div class="text-center text-gray-500 py-12">
+            Belum ada data profil empu.
+        </div>
+        @endforelse
     </div>
 </section>
 @endsection

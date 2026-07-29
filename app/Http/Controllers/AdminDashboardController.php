@@ -10,6 +10,8 @@ class AdminDashboardController extends Controller
     public function index()
     {
         $totalPosts = Post::count();
-        return view('admin.dashboard', compact('totalPosts'));
+        $totalGalleries = \App\Models\Gallery::count();
+        $totalEmpus = \App\Models\Empu::count();
+        return view('admin.dashboard', compact('totalPosts', 'totalGalleries', 'totalEmpus'));
     }
 }
