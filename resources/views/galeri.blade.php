@@ -48,38 +48,127 @@
         </div>
 
         <!-- Kategori: Hasil Keris -->
-        <div>
-            <h2 class="text-2xl font-serif font-bold text-slate-800 mb-8 border-l-4 border-amber-500 pl-4">Hasil Keris (Tosan Aji)</h2>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <!-- Gallery Item -->
-                <div class="group relative aspect-[3/4] overflow-hidden rounded-xl bg-stone-200">
-                    <img src="https://images.unsplash.com/photo-1579737153673-9a3d6a6a0ec5?auto=format&fit=crop&q=80" alt="Keris Lurus" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
-                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center flex-col p-4 text-center">
-                        <span class="text-amber-400 text-sm font-bold uppercase tracking-wider mb-1">Dhapur Lurus</span>
-                        <span class="text-white font-serif text-lg">Keris Brojol</span>
-                    </div>
+        <div x-data="{ open:false, image:'', title:'' }">
+            <h2 class="text-2xl font-serif font-bold text-slate-800 mb-8 border-l-4 border-amber-500 pl-4"> Hasil Keris (Tosan Aji)
+        </h2>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+
+            <!-- Keris 1 -->
+            <div
+                @click="
+                    open=true;
+                    image='{{ asset('images/Keris 1-detail.jpeg') }}';
+                    title='Keris 1';
+                "
+                class="group relative aspect-[3/4] overflow-hidden rounded-xl bg-stone-200 cursor-pointer">
+
+                <img
+                    src="{{ asset('images/Keris 1.jpeg') }}"
+                    alt="Keris 1"
+                    class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+
+                <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center flex-col p-4 text-center">
+
+                    <span class="text-amber-400 text-sm font-bold uppercase tracking-wider mb-1"> Dhapur Lurus
+                    </span>
+
+                    <span class="text-white font-serif text-lg"> Keris 1
+                    </span>
                 </div>
-                <div class="group relative aspect-[3/4] overflow-hidden rounded-xl bg-stone-200">
-                    <img src="https://images.unsplash.com/photo-1599839619722-39751411ea63?auto=format&fit=crop&q=80" alt="Keris Luk 3" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
-                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center flex-col p-4 text-center">
-                        <span class="text-amber-400 text-sm font-bold uppercase tracking-wider mb-1">Dhapur Luk 3</span>
-                        <span class="text-white font-serif text-lg">Keris Jangkung</span>
-                    </div>
+            </div>
+            
+            <!-- Keris 2 -->
+            <div
+                @click="
+                    open=true;
+                    image='{{ asset('images/Keris 2-detail.jpeg') }}';
+                    title='Keris Jangkung';
+                "
+                class="group relative aspect-[3/4] overflow-hidden rounded-xl bg-stone-200 cursor-pointer">
+
+                <img
+                    src="{{ asset('images/keris 2.jpeg') }}"
+                    alt="Keris Jangkung"
+                    class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+
+                <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center flex-col p-4 text-center">
+
+                    <span class="text-amber-400 text-sm font-bold uppercase tracking-wider mb-1"> Dhapur Luk 3
+                    </span>
+
+                    <span class="text-white font-serif text-lg"> Keris 2
+                    </span>
                 </div>
-                <div class="group relative aspect-[3/4] overflow-hidden rounded-xl bg-stone-200">
-                    <img src="https://images.unsplash.com/photo-1621530962381-12501a35dc90?auto=format&fit=crop&q=80" alt="Keris Luk 11" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
-                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center flex-col p-4 text-center">
-                        <span class="text-amber-400 text-sm font-bold uppercase tracking-wider mb-1">Dhapur Luk 11</span>
-                        <span class="text-white font-serif text-lg">Keris Sabuk Inten</span>
-                    </div>
+            </div>
+
+            <!-- Keris Sabuk Inten -->
+            <div
+                @click="
+                    open=true;
+                    image='{{ asset('images/Keris 3-detail.jpeg') }}';
+                    title='Keris Sabuk Inten';
+                "
+                class="group relative aspect-[3/4] overflow-hidden rounded-xl bg-stone-200 cursor-pointer">
+
+                <img
+                    src="{{ asset('images/Keris 3.jpeg') }}"
+                    alt="Keris Sabuk Inten"
+                    class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+
+                <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center flex-col p-4 text-center">
+
+                    <span class="text-amber-400 text-sm font-bold uppercase tracking-wider mb-1"> Dhapur Luk 11
+                    </span>
+
+                    <span class="text-white font-serif text-lg"> Keris 3
+                    </span>
                 </div>
-                <div class="group relative aspect-[3/4] overflow-hidden rounded-xl bg-stone-200">
-                    <img src="https://images.unsplash.com/photo-1583344604505-1a80d75a8980?auto=format&fit=crop&q=80" alt="Tombak" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
-                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center flex-col p-4 text-center">
-                        <span class="text-amber-400 text-sm font-bold uppercase tracking-wider mb-1">Tosan Aji</span>
-                        <span class="text-white font-serif text-lg">Tombak Pusaka</span>
-                    </div>
+            </div>
+                
+            <!-- Tombak -->
+            <div
+                @click="
+                    open=true;
+                    image='{{ asset('images/Keris 4-detail.jpeg') }}';
+                    title='Tombak Pusaka';
+                "
+                class="group relative aspect-[3/4] overflow-hidden rounded-xl bg-stone-200 cursor-pointer">
+
+                <img
+                    src="{{ asset('images/Keris 4.jpeg') }}"
+                    alt="Tombak"
+                    class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+
+                <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center flex-col p-4 text-center">
+
+                    <span class="text-amber-400 text-sm font-bold uppercase tracking-wider mb-1"> Tosan Aji
+                    </span>
+
+                    <span class="text-white font-serif text-lg"> Keris 4
+                    </span>
                 </div>
+            </div>
+        </div>
+
+            <!-- Modal -->
+            <div
+                x-show="open"
+                x-transition
+                class="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-6"
+                @click.self="open = false"
+>
+                <div class="relative">
+                    <button
+                        @click="open = false"
+                        class="absolute -top-3 -right-3 w-10 h-10 rounded-full bg-white text-black text-xl hover:bg-gray-200">
+                        ✕
+                    </button>
+
+                <img
+                    :src="image"
+                    :alt="title"
+                    class="max-w-[90vw] max-h-[85vh] object-contain rounded-xl shadow-2xl">
             </div>
         </div>
 
