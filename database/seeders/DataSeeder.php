@@ -5,7 +5,6 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Storage;
 use App\Models\Post;
-use App\Models\Gallery;
 use App\Models\Empu;
 use Illuminate\Support\Str;
 
@@ -20,10 +19,6 @@ class DataSeeder extends Seeder
             
             'news1.jpg' => 'https://images.unsplash.com/photo-1590483838421-a4773c683ee3?w=800&q=80',
             'news2.jpg' => 'https://images.unsplash.com/photo-1590021319028-2d7c5a08502e?w=800&q=80',
-            
-            'galeri_proses.jpg' => 'https://images.unsplash.com/photo-1522869502446-f6d8924b6f12?w=600&q=80',
-            'galeri_hasil.jpg' => 'https://images.unsplash.com/photo-1579737153673-9a3d6a6a0ec5?w=600&q=80',
-            'galeri_kegiatan.jpg' => 'https://images.unsplash.com/photo-1544256718-3bcf237f3974?w=600&q=80',
         ];
 
         Storage::disk('public')->makeDirectory('seeders');
@@ -41,7 +36,6 @@ class DataSeeder extends Seeder
         // Clear existing data to avoid duplicates if run multiple times
         Empu::truncate();
         Post::truncate();
-        Gallery::truncate();
 
         // 1. Data Empu
         Empu::create([
@@ -75,23 +69,6 @@ class DataSeeder extends Seeder
             'image' => 'seeders/news2.jpg'
         ]);
 
-        // 3. Data Galeri
-        Gallery::create([
-            'title' => 'Bara Api dan Tempaan Pertama',
-            'category' => 'proses',
-            'image' => 'seeders/galeri_proses.jpg'
-        ]);
-
-        Gallery::create([
-            'title' => 'Keris Sengkelat Luk 13',
-            'category' => 'hasil',
-            'image' => 'seeders/galeri_hasil.jpg'
-        ]);
-
-        Gallery::create([
-            'title' => 'Pelatihan Pande Besi Muda',
-            'category' => 'kegiatan',
-            'image' => 'seeders/galeri_kegiatan.jpg'
-        ]);
+        // Galeri data removed.
     }
 }

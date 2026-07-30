@@ -19,19 +19,31 @@
         <div class="mb-16">
             <h2 class="text-2xl font-serif font-bold text-slate-800 mb-8 border-l-4 border-amber-500 pl-4">Proses Pembuatan</h2>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                @forelse($galleries['proses'] ?? [] as $item)
                 <!-- Gallery Item -->
-                <div class="group relative aspect-square overflow-hidden rounded-xl bg-stone-200 shadow">
-                    <img src="{{ asset('storage/' . $item->image) }}" alt="{{ $item->title }}" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
-                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center p-4 text-center">
-                        <span class="text-white font-medium tracking-wide">{{ $item->title }}</span>
+                <div class="group relative aspect-square overflow-hidden rounded-xl bg-stone-200">
+                    <img src="https://images.unsplash.com/photo-1590483838421-a4773c683ee3?auto=format&fit=crop&q=80" alt="Bara Api" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                        <span class="text-white font-medium tracking-wide">Bara Api</span>
                     </div>
                 </div>
-                @empty
-                <div class="col-span-2 md:col-span-4 py-8 text-center text-gray-500 bg-white rounded-xl border border-gray-100">
-                    <p>Belum ada foto untuk kategori Proses Pembuatan.</p>
+                <div class="group relative aspect-square overflow-hidden rounded-xl bg-stone-200">
+                    <img src="https://images.unsplash.com/photo-1590021319028-2d7c5a08502e?auto=format&fit=crop&q=80" alt="Tempa Besi" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                        <span class="text-white font-medium tracking-wide">Tempa Besi</span>
+                    </div>
                 </div>
-                @endforelse
+                <div class="group relative aspect-square overflow-hidden rounded-xl bg-stone-200">
+                    <img src="https://images.unsplash.com/photo-1509937586828-56cb2f20c451?auto=format&fit=crop&q=80" alt="Detail Ukiran" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                        <span class="text-white font-medium tracking-wide">Detail Pamor</span>
+                    </div>
+                </div>
+                <div class="group relative aspect-square overflow-hidden rounded-xl bg-stone-200">
+                    <img src="https://images.unsplash.com/photo-1522869502446-f6d8924b6f12?auto=format&fit=crop&q=80" alt="Sepuh" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                        <span class="text-white font-medium tracking-wide">Proses Sepuh</span>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -39,19 +51,35 @@
         <div>
             <h2 class="text-2xl font-serif font-bold text-slate-800 mb-8 border-l-4 border-amber-500 pl-4">Hasil Keris (Tosan Aji)</h2>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                @forelse($galleries['hasil'] ?? [] as $item)
                 <!-- Gallery Item -->
-                <div class="group relative aspect-[3/4] overflow-hidden rounded-xl bg-stone-200 shadow">
-                    <img src="{{ asset('storage/' . $item->image) }}" alt="{{ $item->title }}" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                <div class="group relative aspect-[3/4] overflow-hidden rounded-xl bg-stone-200">
+                    <img src="https://images.unsplash.com/photo-1579737153673-9a3d6a6a0ec5?auto=format&fit=crop&q=80" alt="Keris Lurus" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
                     <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center flex-col p-4 text-center">
-                        <span class="text-white font-serif text-lg">{{ $item->title }}</span>
+                        <span class="text-amber-400 text-sm font-bold uppercase tracking-wider mb-1">Dhapur Lurus</span>
+                        <span class="text-white font-serif text-lg">Keris Brojol</span>
                     </div>
                 </div>
-                @empty
-                <div class="col-span-2 md:col-span-4 py-8 text-center text-gray-500 bg-white rounded-xl border border-gray-100">
-                    <p>Belum ada foto untuk kategori Hasil Keris.</p>
+                <div class="group relative aspect-[3/4] overflow-hidden rounded-xl bg-stone-200">
+                    <img src="https://images.unsplash.com/photo-1599839619722-39751411ea63?auto=format&fit=crop&q=80" alt="Keris Luk 3" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center flex-col p-4 text-center">
+                        <span class="text-amber-400 text-sm font-bold uppercase tracking-wider mb-1">Dhapur Luk 3</span>
+                        <span class="text-white font-serif text-lg">Keris Jangkung</span>
+                    </div>
                 </div>
-                @endforelse
+                <div class="group relative aspect-[3/4] overflow-hidden rounded-xl bg-stone-200">
+                    <img src="https://images.unsplash.com/photo-1621530962381-12501a35dc90?auto=format&fit=crop&q=80" alt="Keris Luk 11" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center flex-col p-4 text-center">
+                        <span class="text-amber-400 text-sm font-bold uppercase tracking-wider mb-1">Dhapur Luk 11</span>
+                        <span class="text-white font-serif text-lg">Keris Sabuk Inten</span>
+                    </div>
+                </div>
+                <div class="group relative aspect-[3/4] overflow-hidden rounded-xl bg-stone-200">
+                    <img src="https://images.unsplash.com/photo-1583344604505-1a80d75a8980?auto=format&fit=crop&q=80" alt="Tombak" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center flex-col p-4 text-center">
+                        <span class="text-amber-400 text-sm font-bold uppercase tracking-wider mb-1">Tosan Aji</span>
+                        <span class="text-white font-serif text-lg">Tombak Pusaka</span>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -59,19 +87,31 @@
         <div class="mt-16">
             <h2 class="text-2xl font-serif font-bold text-slate-800 mb-8 border-l-4 border-amber-500 pl-4">Kegiatan Besalen</h2>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                @forelse($galleries['kegiatan'] ?? [] as $item)
                 <!-- Gallery Item -->
-                <div class="group relative aspect-[4/3] overflow-hidden rounded-xl bg-stone-200 shadow">
-                    <img src="{{ asset('storage/' . $item->image) }}" alt="{{ $item->title }}" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                <div class="group relative aspect-[4/3] overflow-hidden rounded-xl bg-stone-200">
+                    <img src="https://images.unsplash.com/photo-1544256718-3bcf237f3974?auto=format&fit=crop&q=80" alt="Pelatihan Pande Besi" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
                     <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center flex-col p-4 text-center">
-                        <span class="text-white font-medium tracking-wide">{{ $item->title }}</span>
+                        <span class="text-white font-medium tracking-wide">Pelatihan Pande Besi</span>
                     </div>
                 </div>
-                @empty
-                <div class="col-span-2 md:col-span-4 py-8 text-center text-gray-500 bg-white rounded-xl border border-gray-100">
-                    <p>Belum ada foto untuk kategori Kegiatan Besalen.</p>
+                <div class="group relative aspect-[4/3] overflow-hidden rounded-xl bg-stone-200">
+                    <img src="https://images.unsplash.com/photo-1574621100236-d26b7ee11a54?auto=format&fit=crop&q=80" alt="Edukasi Budaya" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center flex-col p-4 text-center">
+                        <span class="text-white font-medium tracking-wide">Kunjungan Edukasi Budaya</span>
+                    </div>
                 </div>
-                @endforelse
+                <div class="group relative aspect-[4/3] overflow-hidden rounded-xl bg-stone-200">
+                    <img src="https://images.unsplash.com/photo-1533038590840-1cde6e668a91?auto=format&fit=crop&q=80" alt="Pameran Tosan Aji" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center flex-col p-4 text-center">
+                        <span class="text-white font-medium tracking-wide">Pameran Tosan Aji</span>
+                    </div>
+                </div>
+                <div class="group relative aspect-[4/3] overflow-hidden rounded-xl bg-stone-200">
+                    <img src="https://images.unsplash.com/photo-1603574670812-d245908f5117?auto=format&fit=crop&q=80" alt="Ritual Adat" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center flex-col p-4 text-center">
+                        <span class="text-white font-medium tracking-wide">Ritual Tempa Tradisional</span>
+                    </div>
+                </div>
             </div>
         </div>
         
