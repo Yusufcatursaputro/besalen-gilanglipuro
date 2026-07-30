@@ -3,8 +3,10 @@
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\TentangController;
 use App\Http\Controllers\AdminDashboardController;
 use App\Http\Controllers\AdminPostController;
+use App\Http\Controllers\AdminEmpuController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 |--------------------------------------------------------------------------
 */
 Route::get('/', [HomeController::class, 'index'])->name('home');
-Route::view('/tentang', 'tentang')->name('tentang');
+Route::get('/tentang', [TentangController::class, 'index'])->name('tentang');
 Route::view('/galeri', 'galeri')->name('galeri');
 Route::view('/kontak', 'kontak')->name('kontak');
 
@@ -29,6 +31,9 @@ Route::middleware(['auth', 'verified'])->prefix('dashboard')->group(function () 
     Route::get('/', [AdminDashboardController::class, 'index'])->name('dashboard');
     Route::resource('berita', AdminPostController::class)->names('dashboard.berita')->parameters([
         'berita' => 'post'
+    ]);
+    Route::resource('empu', AdminEmpuController::class)->names('dashboard.empu')->parameters([
+        'empu' => 'empu'
     ]);
 });
 

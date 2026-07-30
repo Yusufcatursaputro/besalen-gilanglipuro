@@ -82,6 +82,38 @@
                 </div>
             </div>
         </div>
+
+        <!-- Kategori: Kegiatan -->
+        <div class="mt-16">
+            <h2 class="text-2xl font-serif font-bold text-slate-800 mb-8 border-l-4 border-amber-500 pl-4">Kegiatan Besalen</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <!-- Gallery Item -->
+                <div class="group relative aspect-[4/3] overflow-hidden rounded-xl bg-stone-200">
+                    <img src="https://images.unsplash.com/photo-1544256718-3bcf237f3974?auto=format&fit=crop&q=80" alt="Pelatihan Pande Besi" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center flex-col p-4 text-center">
+                        <span class="text-white font-medium tracking-wide">Pelatihan Pande Besi</span>
+                    </div>
+                </div>
+                <div class="group relative aspect-[4/3] overflow-hidden rounded-xl bg-stone-200">
+                    <img src="https://images.unsplash.com/photo-1574621100236-d26b7ee11a54?auto=format&fit=crop&q=80" alt="Edukasi Budaya" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center flex-col p-4 text-center">
+                        <span class="text-white font-medium tracking-wide">Kunjungan Edukasi Budaya</span>
+                    </div>
+                </div>
+                <div class="group relative aspect-[4/3] overflow-hidden rounded-xl bg-stone-200">
+                    <img src="https://images.unsplash.com/photo-1533038590840-1cde6e668a91?auto=format&fit=crop&q=80" alt="Pameran Tosan Aji" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center flex-col p-4 text-center">
+                        <span class="text-white font-medium tracking-wide">Pameran Tosan Aji</span>
+                    </div>
+                </div>
+                <div class="group relative aspect-[4/3] overflow-hidden rounded-xl bg-stone-200">
+                    <img src="https://images.unsplash.com/photo-1603574670812-d245908f5117?auto=format&fit=crop&q=80" alt="Ritual Adat" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center flex-col p-4 text-center">
+                        <span class="text-white font-medium tracking-wide">Ritual Tempa Tradisional</span>
+                    </div>
+                </div>
+            </div>
+        </div>
         
     </div>
 </section>
