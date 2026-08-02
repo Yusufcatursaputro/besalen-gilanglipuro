@@ -80,6 +80,7 @@
             
             <!-- Keris 2 -->
             <div
+
                 @click="
                     open=true;
                     image='{{ asset('images/Keris 2-detail.jpeg') }}';
@@ -106,7 +107,7 @@
             <div
                 @click="
                     open=true;
-                    image='{{ asset('images/Keris 3-detail.jpeg') }}';
+                    image='{{ asset('images/Keris 3-detail.png') }}';
                     title='Keris Sabuk Inten';
                 "
                 class="group relative aspect-[3/4] overflow-hidden rounded-xl bg-stone-200 cursor-pointer">
@@ -130,7 +131,7 @@
             <div
                 @click="
                     open=true;
-                    image='{{ asset('images/Keris 4-detail.jpeg') }}';
+                    image='{{ asset('images/Keris 4-detail.png') }}';
                     title='Tombak Pusaka';
                 "
                 class="group relative aspect-[3/4] overflow-hidden rounded-xl bg-stone-200 cursor-pointer">
