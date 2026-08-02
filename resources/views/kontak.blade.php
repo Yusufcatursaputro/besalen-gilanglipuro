@@ -28,9 +28,10 @@
                         <div>
                             <h3 class="font-bold text-white text-lg mb-1">Alamat</h3>
                             <p class="text-amber-100/80 leading-relaxed text-sm">
-                                Jl. Gilangharjo No. 12<br>
-                                Desa Gilangharjo, Kec. Pandak<br>
-                                Kab. Bantul, DI Yogyakarta 55761
+                                38R6+VC6, Jl. Jodog, Jodog,<br>
+                                Gilangharjo, Kec. Pandak,<br>
+                                Kabupaten Bantul,<br>
+                                Daerah Istimewa Yogyakarta 55761
                             </p>
                         </div>
                     </div>
