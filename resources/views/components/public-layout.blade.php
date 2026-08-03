@@ -6,6 +6,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Besalen GilangLipuro') }} - @yield('title', 'Warisan Budaya Keris')</title>
+    <link rel="icon" type="image/png" href="{{ asset('images/logo-besalen.png') }}">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,8 +34,7 @@
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
                     <a href="{{ route('home') }}" class="flex items-center gap-3">
-                        {{-- Placeholder for logo --}}
-                        <div class="w-10 h-10 bg-amber-500 rounded-full flex items-center justify-center text-white font-serif font-bold text-xl">B</div>
+                        <img src="{{ asset('images/logo-besalen.png') }}" alt="Logo Besalen" class="w-12 h-12 object-contain bg-white rounded-full p-1">
                         <span class="font-serif font-bold text-2xl text-amber-50 tracking-wide">Besalen<span class="text-amber-400">Gilang</span></span>
                     </a>
                 </div>
