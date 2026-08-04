@@ -4,8 +4,8 @@
 
 @section('content')
 <!-- Header Banner -->
-<div class="bg-stone-900 py-16 relative overflow-hidden">
-    <div class="absolute inset-0 opacity-20 bg-[url('https://images.unsplash.com/photo-1542385151-efd9000785a0?auto=format&fit=crop&q=80')] bg-cover bg-center"></div>
+<div class="bg-amber-950 py-16 relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-t from-amber-950 via-amber-900/60 to-transparent"></div>
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative text-center">
         <h1 class="text-4xl md:text-5xl font-serif font-bold text-white mb-4">Berita & Artikel</h1>
         <p class="text-amber-400 font-medium tracking-wide">Kabar Terkini Seputar Kegiatan Besalen</p>

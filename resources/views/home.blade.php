@@ -6,7 +6,6 @@
 <!-- Hero Section -->
 <section class="relative bg-amber-950 overflow-hidden">
     <!-- Background Pattern/Image Overlay -->
-    <div class="absolute inset-0 opacity-40 bg-[url('https://images.unsplash.com/photo-1590483838421-a4773c683ee3?auto=format&fit=crop&q=80')] bg-cover bg-center mix-blend-overlay"></div>
     <div class="absolute inset-0 bg-gradient-to-t from-amber-950 via-amber-900/60 to-transparent"></div>
     
     <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-40 flex flex-col items-center text-center">
