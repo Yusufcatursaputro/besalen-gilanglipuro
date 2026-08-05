@@ -5,7 +5,6 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Storage;
 use App\Models\Post;
-use App\Models\Empu;
 use Illuminate\Support\Str;
 
 class DataSeeder extends Seeder
@@ -34,25 +33,7 @@ class DataSeeder extends Seeder
         }
 
         // Clear existing data to avoid duplicates if run multiple times
-        Empu::truncate();
         Post::truncate();
-
-        // 1. Data Empu
-        Empu::create([
-            'name' => 'Ki Empu Sungkowo',
-            'title' => 'Generasi ke-17 Empu Supo',
-            'description' => 'Mendedikasikan hidupnya pada nyala api dan tempaan baja, Ki Empu telah berkarya lebih dari 40 tahun. Keahlian beliau dalam memadukan pamor dan merancang dhapur keris menjadikannya salah satu sosok sentral dalam pelestarian pusaka di wilayah ini.',
-            'image' => 'seeders/empu1.jpg',
-            'is_certified' => true,
-        ]);
-
-        Empu::create([
-            'name' => 'Empu Budiarto',
-            'title' => 'Pewaris Teknik Tempa Tradisional',
-            'description' => 'Telah berkecimpung dalam dunia tosan aji sejak usia muda, Empu Budiarto dikenal karena keahliannya menciptakan detail bilah keris luk dengan tingkat presisi tinggi. Beliau juga aktif memberikan edukasi perkerisan kepada generasi muda.',
-            'image' => 'seeders/empu2.jpg',
-            'is_certified' => false,
-        ]);
 
         // 2. Data Berita (Posts)
         Post::create([
