@@ -32,9 +32,6 @@ Route::middleware(['auth', 'verified'])->prefix('dashboard')->group(function () 
     Route::resource('berita', AdminPostController::class)->names('dashboard.berita')->parameters([
         'berita' => 'post'
     ]);
-    Route::resource('empu', AdminEmpuController::class)->names('dashboard.empu')->parameters([
-        'empu' => 'empu'
-    ]);
 });
 
 /*

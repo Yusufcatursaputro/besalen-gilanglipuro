@@ -29,36 +29,30 @@
                     <p class="leading-relaxed mb-4">
                         Sebelum dikenal sebagai tempat pembuatan keris, nama Gilang Lipuro sudah lebih dulu melekat pada sebuah petilasan bersejarah di Padukuhan Kauman, Kalurahan Gilangharjo, Kapanewon Pandak, Bantul. Di lokasi tersebut terdapat sebongkah batu berbentuk balok persegi panjang yang dikenal dengan nama Selo Gilang Lipuro, kini dilindungi dalam sebuah bangunan kecil dan tetap berada dalam pengawasan Keraton Ngayogyakarta.
                     </p>
-                    <p class="leading-relaxed mb-4">
-                        Menurut cerita turun temurun masyarakat setempat, tempat ini dahulu digunakan oleh Raden Danang Sutawijaya, yang kemudian dikenal sebagai Panembahan Senopati, untuk bertafakur sebagai bagian dari pencarian lokasi berdirinya sebuah kerajaan. Konon di tempat inilah beliau menerima pertanda atau wahyu sebelum akhirnya mendirikan keraton di sekitar Selo Gilang, yang kelak menjadi cikal bakal Kerajaan Mataram Islam. Nama Gilang kemudian diabadikan menjadi nama Desa Gilangharjo, sebagai penanda kebesaran zaman itu dan nilai-nilai luhur yang terus dijaga hingga sekarang.
-                    </p>
                     <p class="leading-relaxed mb-6">
-                        Cerita napak tilas inilah yang membuat kawasan Gilangharjo dipandang memiliki ikatan sejarah dan spiritual dengan lahirnya Mataram Islam, sebuah akar budaya yang kemudian menjadi salah satu alasan kuat kenapa tradisi menempa pusaka dihidupkan kembali di tanah ini.
+                        Menurut cerita turun temurun masyarakat setempat, tempat ini dahulu digunakan oleh Raden Danang Sutawijaya, yang kemudian dikenal sebagai Panembahan Senopati, untuk bertafakur sebagai bagian dari pencarian lokasi berdirinya sebuah kerajaan. Konon di tempat inilah beliau menerima pertanda atau wahyu sebelum akhirnya mendirikan keraton di sekitar Selo Gilang, yang kelak menjadi cikal bakal Kerajaan Mataram Islam. Nama Gilang kemudian diabadikan menjadi nama Kalurahan Gilangharjo, sebagai penanda kebesaran zaman itu dan nilai nilai luhur yang terus dijaga hingga sekarang.
                     </p>
 
-                    <h3 class="text-2xl font-serif text-slate-800 mt-8 mb-3">Dari Petilasan ke Tradisi Perkerisan</h3>
+                    <h3 class="text-2xl font-serif text-slate-800 mt-8 mb-3">Menelusuri Asal Nama Lipuro</h3>
                     <p class="leading-relaxed mb-4">
-                        Dalam dunia perkerisan, setiap keris diperkirakan berasal dari suatu masa tertentu berdasarkan ciri fisiknya, mulai dari teknik pencampuran bahan, pamor, gaya, hingga bentuk perawakan bilah. Sistem penanggalan berdasarkan ciri ini dikenal dengan istilah tangguh tosan aji. Melalui tangguh, para pecinta dan peneliti keris dapat memperkirakan era pembuatan sebuah keris, mulai dari zaman Majapahit hingga era Mataram serta masa-masa sesudahnya termasuk gaya Ngayogyakarta.
-                    </p>
-                    <p class="leading-relaxed mb-4">
-                        Bukti tertua penggunaan keris di tanah Jawa dapat dilihat dari relief-relief candi kuno, salah satunya yang menggambarkan adegan penempaan bilah di dalam sebuah tempat kerja atau besalen. Ini menunjukkan bahwa tradisi menempa keris sudah menjadi bagian dari kehidupan budaya Jawa sejak berabad-abad silam, jauh sebelum istilah besalen dipakai kembali untuk menamai rumah produksi keris seperti sekarang ini.
+                        Nama Lipuro sendiri bukan sekadar tempelan kata, melainkan menyimpan jejak sejarah tosan aji yang jauh lebih tua. Nama ini berasal dari Besalen Lipuro, sebuah besalen yang konon pernah berdiri di hutan Wanalipuro sejak era akhir Kerajaan Majapahit. Karya karya keris dari besalen tersebut bahkan dikenal dalam dunia perkerisan dengan sebutan tangguh Tuban Lipuro, karena para empu yang berkarya di sana pada masa itu berasal dari Tuban.
                     </p>
                     <p class="leading-relaxed mb-6">
-                        Ketika Kasultanan Ngayogyakarta Hadiningrat berdiri, tradisi perkerisan pun berkembang dengan gaya atau gagrag tersendiri yang khas Yogyakarta, berbeda dengan gagrag di daerah lain. Warisan inilah yang kemudian diakui UNESCO sebagai Karya Agung Budaya Lisan dan Takbenda Warisan Manusia pada tahun 2005.
+                        Penamaan Besalen GilangLipuro pada masa kini pun bukan tanpa maksud. Penggabungan nama Gilang dan Lipuro dimaksudkan sebagai bentuk nunggak semi, yakni upaya menumbuhkan kembali semangat dan tradisi besalen pendahulunya yang telah lama redup, agar tunas tradisi tosan aji itu bersemi kembali di tanah yang sama.
                     </p>
 
                     <h3 class="text-2xl font-serif text-slate-800 mt-8 mb-3">Menghidupkan Kembali Api Tempaan</h3>
                     <p class="leading-relaxed mb-4">
-                        Meski memiliki akar sejarah yang kuat dengan lahirnya Mataram Islam, masyarakat Gilangharjo sebenarnya secara turun temurun lebih dikenal sebagai pande besi pembuat alat pertanian seperti cangkul, sabit, dan pisau, bukan sebagai pembuat keris. Dari sinilah muncul keresahan sekaligus semangat dari pemerintah setempat untuk membangkitkan kembali tradisi perkerisan di wilayah yang justru menjadi cikal bakal berdirinya kerajaan Mataram tersebut.
+                        Meski memiliki akar sejarah yang kuat dengan lahirnya Mataram Islam dan tradisi besalen tua Wanalipuro, masyarakat Gilangharjo dalam beberapa generasi terakhir justru lebih dikenal sebagai pande besi pembuat alat pertanian seperti cangkul, sabit, dan pisau, bukan sebagai pembuat keris. Pengetahuan tentang seni tempa logam ini sebenarnya masih diwariskan turun temurun, hanya saja keahliannya belum diarahkan untuk menempa pusaka.
                     </p>
                     <p class="leading-relaxed mb-4">
-                        Momentum kebangkitan itu terwujud setelah Kalurahan Gilangharjo ditetapkan sebagai Desa Mandiri Budaya dan memperoleh dukungan melalui program Bantuan Keuangan Khusus dari Dana Keistimewaan Daerah Istimewa Yogyakarta. Sebagian dukungan tersebut dimanfaatkan untuk mendirikan Rumah Produksi Keris atau besalen, sekaligus menyelenggarakan pelatihan alih keterampilan bagi para pande besi setempat. Sekitar dua puluh pande besi lokal dipilih dan dibina untuk beralih dari pembuat alat pertanian menjadi calon empu keris, dengan pendampingan dari pihak Dinas Kebudayaan Kabupaten Bantul. Kegiatan pelatihan serupa kembali dilaksanakan sebagai bagian dari upaya pengembangan kearifan lokal.
+                        Menyadari hal ini, Pemerintah Kalurahan Gilangharjo merintis kembali tradisi perkerisan dengan dukungan Bantuan Keuangan Khusus dari Dana Keistimewaan Daerah Istimewa Yogyakarta, atau yang biasa disingkat BKK Danais DIY. Melalui dukungan tersebut, para pengrajin alat pertanian yang selama ini berkarya di besalen setempat diangkat kembali keterampilannya, dari sekadar menempa perkakas menjadi menempa pusaka tosan aji berupa keris.
                     </p>
                     <p class="leading-relaxed mb-4">
-                        Namun perjalanan menjadi empu bukanlah hal yang mudah maupun singkat. Dari puluhan pande besi yang awalnya mengikuti pelatihan, hanya sebagian kecil yang bertahan dan konsisten menekuni jalan sebagai pembuat keris hingga sekarang. Proses menempa keris yang menuntut kesabaran, ketelitian, serta laku tertentu memang secara alami menyaring siapa yang benar-benar bertahan di jalan ini.
+                        Momentum penting terjadi pada hari Minggu Wage, tanggal 28 Mei 2024, ketika Pemerintah Kalurahan Gilangharjo secara resmi memulai kegiatan pembuatan keris di Besalen GilangLipuro. Pelatihan perdana ini berhasil menghasilkan dua bilah keris pertama, yaitu dhapur Bethok dan dhapur Maheso Lajer, keduanya dengan pamor Wos Wutah. Proses penempaannya menggunakan tiga jenis bahan logam utama, yakni besi, baja, dan pamor, sesuai kaidah tradisional pembuatan keris Nusantara.
                     </p>
-                    <p class="leading-relaxed mb-4">
-                        Kini, jejak besalen di Gilangharjo tersebar di beberapa titik, salah satunya di kawasan Jodog Karangasem, dan terus dikembangkan bukan hanya sebagai pusat produksi, tetapi juga diproyeksikan menjadi atraksi wisata budaya. Dari batu petilasan tempat wahyu Mataram diyakini pernah turun, kini denting palu para pengrajin yang bertahan itu menyambung kembali benang merah sejarah panjang tanah Gilangharjo dengan tradisi tosan aji Nusantara.
+                    <p class="leading-relaxed mb-6">
+                        Dari batu petilasan tempat wahyu Mataram diyakini pernah turun, dari hutan Wanalipuro tempat tangguh Tuban Lipuro pernah berjaya, kini denting palu di Besalen GilangLipuro menyambung kembali benang merah panjang itu, menumbuhkan kembali tunas tosan aji yang sempat lama tertidur di tanah Gilangharjo.
                     </p>
                 </div>
             </div>
@@ -85,35 +79,39 @@
             <div class="w-24 h-1 bg-amber-500 mx-auto mt-6 rounded-full"></div>
         </div>
 
-        @forelse($empus as $empu)
+        <!-- Profil 1 -->
         <div class="bg-white rounded-3xl shadow-lg border border-stone-100 overflow-hidden max-w-4xl mx-auto flex flex-col md:flex-row mb-8">
             <div class="md:w-2/5 shrink-0 bg-stone-200">
-                <img src="{{ asset('storage/' . $empu->image) }}" alt="{{ $empu->name }}" class="w-full h-full object-cover object-center min-h-[300px]">
+                <img src="{{ asset('storage/seeders/empu1.jpg') }}" alt="Ki Empu Sungkowo" class="w-full h-full object-cover object-center min-h-[300px]">
             </div>
             <div class="p-8 md:p-10 flex flex-col justify-center">
-                <h4 class="text-2xl font-serif font-bold text-slate-800 mb-1">{{ $empu->name }}</h4>
-                @if($empu->title)
-                    <p class="text-amber-600 font-medium mb-6">{{ $empu->title }}</p>
-                @endif
+                <h4 class="text-2xl font-serif font-bold text-slate-800 mb-1">Ki Empu Sungkowo</h4>
+                <p class="text-amber-600 font-medium mb-6">Generasi ke-17 Empu Supo</p>
                 <p class="text-slate-600 leading-relaxed mb-6">
-                    {{ $empu->description }}
+                    Mendedikasikan hidupnya pada nyala api dan tempaan baja, Ki Empu telah berkarya lebih dari 40 tahun. Keahlian beliau dalam memadukan pamor dan merancang dhapur keris menjadikannya salah satu sosok sentral dalam pelestarian pusaka di wilayah ini.
                 </p>
-                
-                @if($empu->is_certified)
                 <div class="flex gap-4 items-center">
                     <span class="inline-flex items-center gap-1 text-sm font-semibold text-stone-500">
                         <svg class="w-5 h-5 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path></svg>
                         Tersertifikasi Nasional
                     </span>
                 </div>
-                @endif
             </div>
         </div>
-        @empty
-        <div class="text-center text-gray-500 py-12">
-            Belum ada data profil empu.
+
+        <!-- Profil 2 -->
+        <div class="bg-white rounded-3xl shadow-lg border border-stone-100 overflow-hidden max-w-4xl mx-auto flex flex-col md:flex-row mb-8">
+            <div class="md:w-2/5 shrink-0 bg-stone-200">
+                <img src="{{ asset('storage/seeders/empu2.jpg') }}" alt="Empu Budiarto" class="w-full h-full object-cover object-center min-h-[300px]">
+            </div>
+            <div class="p-8 md:p-10 flex flex-col justify-center">
+                <h4 class="text-2xl font-serif font-bold text-slate-800 mb-1">Empu Budiarto</h4>
+                <p class="text-amber-600 font-medium mb-6">Pewaris Teknik Tempa Tradisional</p>
+                <p class="text-slate-600 leading-relaxed mb-6">
+                    Telah berkecimpung dalam dunia tosan aji sejak usia muda, Empu Budiarto dikenal karena keahliannya menciptakan detail bilah keris luk dengan tingkat presisi tinggi. Beliau juga aktif memberikan edukasi perkerisan kepada generasi muda.
+                </p>
+            </div>
         </div>
-        @endforelse
     </div>
 </section>
 @endsection
