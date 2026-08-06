@@ -60,8 +60,12 @@
             <!-- Image/Ilustrasi -->
             <div class="lg:w-1/2 w-full relative lg:sticky lg:top-28">
                 <div class="aspect-[4/5] md:aspect-video lg:aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl relative z-10 border-4 border-white">
-                    <img src="https://images.unsplash.com/photo-1590483838421-a4773c683ee3?auto=format&fit=crop&w=800&q=80" alt="Proses tempa keris" class="w-full h-full object-cover">
+                    <img
+                        src="{{ asset('images/BesalenGilangLipuro.jpeg') }}"
+                        alt="Besalen Gilangharjo"
+                        class="w-full h-full object-cover">
                 </div>
+
                 <!-- Decorative background elements -->
                 <div class="absolute -bottom-6 -right-6 w-full h-full border-2 border-amber-500 rounded-2xl z-0"></div>
                 <div class="absolute -top-6 -left-6 w-32 h-32 bg-amber-100 rounded-full blur-2xl z-0 opacity-50"></div>
@@ -81,34 +85,63 @@
 
         <!-- Profil 1 -->
         <div class="bg-white rounded-3xl shadow-lg border border-stone-100 overflow-hidden max-w-4xl mx-auto flex flex-col md:flex-row mb-8">
+
             <div class="md:w-2/5 shrink-0 bg-stone-200">
-                <img src="{{ asset('storage/seeders/empu1.jpg') }}" alt="Ki Empu Sungkowo" class="w-full h-full object-cover object-center min-h-[300px]">
+                <img
+                    src="{{ asset('images/Empu 1.jpeg') }}"
+                    alt="Empu Susanto"
+                    class="w-full h-full object-cover object-center min-h-[300px]">
             </div>
+
             <div class="p-8 md:p-10 flex flex-col justify-center">
-                <h4 class="text-2xl font-serif font-bold text-slate-800 mb-1">Ki Empu Sungkowo</h4>
-                <p class="text-amber-600 font-medium mb-6">Generasi ke-17 Empu Supo</p>
+                <h4 class="text-2xl font-serif font-bold text-slate-800 mb-1">
+                    Empu Susanto
+                </h4>
+
                 <p class="text-slate-600 leading-relaxed mb-6">
-                    Mendedikasikan hidupnya pada nyala api dan tempaan baja, Ki Empu telah berkarya lebih dari 40 tahun. Keahlian beliau dalam memadukan pamor dan merancang dhapur keris menjadikannya salah satu sosok sentral dalam pelestarian pusaka di wilayah ini.
+                    Empu Hadisurya Susanto atau dikenal dengan Susanto adalah
+                    seorang ahli keris yang berasal dari Sagan, Yogyakarta.
+                    Saat ini berusia 50 tahun, beliau tetap aktif dalam proses pembuatan keris.
+                    Dengan pengalaman sekitar 4 tahun sebagai pengrajin keris,
+                    beliau sudah membuat berbagai jenis keris.
+                    Keris yang dibuat oleh beliau terkenal dengan ketahanan dan kekuatannya karena
+                    kemampuan beliau dalam memilih bahan logam yang digunakan untuk membuat keris tersebut.
                 </p>
+
                 <div class="flex gap-4 items-center">
                     <span class="inline-flex items-center gap-1 text-sm font-semibold text-stone-500">
-                        <svg class="w-5 h-5 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path></svg>
-                        Tersertifikasi Nasional
+                        <svg class="w-5 h-5 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+                        </svg>
                     </span>
                 </div>
             </div>
         </div>
 
         <!-- Profil 2 -->
-        <div class="bg-white rounded-3xl shadow-lg border border-stone-100 overflow-hidden max-w-4xl mx-auto flex flex-col md:flex-row mb-8">
+        <div class="bg-white rounded-3xl shadow-lg border border-stone-100 overflow-hidden max-w-4xl mx-auto flex flex-col md:flex-row">
+
             <div class="md:w-2/5 shrink-0 bg-stone-200">
-                <img src="{{ asset('storage/seeders/empu2.jpg') }}" alt="Empu Budiarto" class="w-full h-full object-cover object-center min-h-[300px]">
+                <img
+                    src="{{ asset('images/Empu 2.jpeg') }}"
+                    alt="Empu Muhadi"
+                    class="w-full h-full object-cover object-center min-h-[300px]">
             </div>
+
             <div class="p-8 md:p-10 flex flex-col justify-center">
-                <h4 class="text-2xl font-serif font-bold text-slate-800 mb-1">Empu Budiarto</h4>
-                <p class="text-amber-600 font-medium mb-6">Pewaris Teknik Tempa Tradisional</p>
-                <p class="text-slate-600 leading-relaxed mb-6">
-                    Telah berkecimpung dalam dunia tosan aji sejak usia muda, Empu Budiarto dikenal karena keahliannya menciptakan detail bilah keris luk dengan tingkat presisi tinggi. Beliau juga aktif memberikan edukasi perkerisan kepada generasi muda.
+
+                <h4 class="text-2xl font-serif font-bold text-slate-800 mb-1">
+                    Empu Muhadi
+                </h4>
+
+                <p class="text-slate-600 leading-relaxed">
+                    Empu Muhadi adalah seorang ahli keris yang berasal dari Jodog, Bantul.
+                    Saat ini berusia 58 tahun, beliau tetap aktif dalam proses pembuatan keris.
+                    Dengan pengalaman sekitar ? tahun sebagai pengrajin keris,
+                    beliau sudah membuat berbagai jenis keris.
+                    Keris yang dibuat oleh beliau terkenal dengan ketahanan dan kekuatannya karena
+                    kemampuan beliau dalam memilih bahan logam yang digunakan untuk membuat keris tersebut.
                 </p>
             </div>
         </div>
