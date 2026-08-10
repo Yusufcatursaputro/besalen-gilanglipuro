@@ -165,10 +165,16 @@
             
             <!-- Keris 2 -->
             <div
+                @click="
+                    mode='image';
+                    open=true;
+                    image='{{ asset('images/Keris 2.jpeg') }}';
+                    title='Keris 2';
+                    "
                 class="group relative aspect-[3/4] overflow-hidden rounded-xl bg-stone-200 cursor-pointer">
 
                 <img
-                    src="{{ asset('images/keris 2.jpeg') }}"
+                    src="{{ asset('images/Keris 2.jpeg') }}"
                     alt="Keris 2"
                     class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
 
@@ -370,21 +376,7 @@
                     </span>
                 </div>
             </div>
-                <div class="group relative aspect-[4/3] overflow-hidden rounded-xl bg-stone-200">
-                    <img src="https://images.unsplash.com/photo-1574621100236-d26b7ee11a54?auto=format&fit=crop&q=80" alt="Edukasi Budaya" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
-                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center flex-col p-4 text-center">
-                        <span class="text-white font-medium tracking-wide">Kunjungan Edukasi Budaya</span>
-                    </div>
-                </div>
-                <div class="group relative aspect-[4/3] overflow-hidden rounded-xl bg-stone-200">
-                    <img src="https://images.unsplash.com/photo-1603574670812-d245908f5117?auto=format&fit=crop&q=80" alt="Ritual Adat" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
-                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center flex-col p-4 text-center">
-                        <span class="text-white font-medium tracking-wide">Ritual Tempa Tradisional</span>
-                    </div>
-                </div>
-            </div>
         </div>
-        
     </div>
 </section>
 @endsection
